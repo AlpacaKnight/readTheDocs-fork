@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = '文档测试'
+copyright = '2023, xuyd'
+author = 'xuyd'
 
 release = '0.1'
 version = '0.1.0'
@@ -31,5 +31,15 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# -- 支持markdown文件
+from recommonmark.parser import CommonMarkParser
+source_parsers = {
+    ".md": CommonMarkParser,
+}
+source_suffix = [".rst", ".md"]
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Options for Language output
+language = "zh_CN"
