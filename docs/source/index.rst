@@ -20,3 +20,10 @@ Contents
 
    usage
    api
+   markdown
+
+.. toctree::
+  :hidden:
+  :caption: Additional "hidden" Pages
+
+  外部链接测试 <https://www.baidu.com>
