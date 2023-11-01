@@ -20,7 +20,7 @@ Contents
 
    usage
    api
-   markdown
+   test
 
 .. toctree::
   :hidden:
